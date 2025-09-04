@@ -1,71 +1,21 @@
-# -------------------------
-# Python
-# -------------------------
+# Python virtual environment
+venv/
+ENV/
+.env/
+.venv/
+
+# Cache
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
-*.pkl
-*.log
 
-# -------------------------
-# Virtual Environment
-# -------------------------
-venv/
-ENV/
-env/
-.venv/
-
-# -------------------------
-# VSCode / IDE Specific
-# -------------------------
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# -------------------------
-# OS Generated Files
-# -------------------------
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# -------------------------
-# Jupyter / IPython
-# -------------------------
-.ipynb_checkpoints/
-
-# -------------------------
-# Build & Packaging
-# -------------------------
-*.egg
-*.egg-info/
-dist/
-build/
-.eggs/
-
-# -------------------------
-# Temporary files
-# -------------------------
-*.tmp
-*.bak
-*.old
-
-# -------------------------
-# Dataset files
-# -------------------------
-dataset/*.csv
-dataset/*.xlsx
-!dataset/skills_template.csv   # (If you have a sample CSV template to keep)
-
-# -------------------------
 # Streamlit cache
-# -------------------------
 .streamlit/
 
-# -------------------------
-# Others
-# -------------------------
-*.pdf
-*.docx
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dataset files
+dataset/*.csv
+dataset/*.xlsx
